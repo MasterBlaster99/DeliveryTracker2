@@ -4,7 +4,7 @@ An Android app which manages orders for delivery partners
 ## Key Decesions
  #### - Use of Hilt dependency Injection
  #### - Retrofit for Network calls
- #### - Reoom Database for local storage
+ #### - Room Database for local storage
  #### - Use of Navigation Components for screen navigation and adhere to best practices
 
 ## Install Instructions
