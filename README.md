@@ -5,7 +5,7 @@ An Android app which manages orders for delivery partners
  #### - Use of Hilt dependency Injection
  #### - Retrofit for Network calls
  #### - Reoom Database for local storage
- #### - Use of Navigation Components as the application is based on single activity multiple fragments
+ #### - Use of Navigation Components for screen navigation and adhere to best practices
 
 ## Install Instructions
 #### - Clone this repository in latest Android studio jellyfish to avoid build issues.
