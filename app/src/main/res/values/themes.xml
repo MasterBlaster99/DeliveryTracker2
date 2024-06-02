@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyTheme" parent="Theme.Material3.Light.NoActionBar">
+
+         <item name="colorPrimary">@color/colorPrimary</item>
+         <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="Theme.DeliveryTracker" parent="Base.Theme.MyTheme" />
+
+    <style name="Widget.BottomNavigationView.InActive" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

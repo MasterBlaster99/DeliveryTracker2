@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".presentation.summary.SummaryFragment">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvDeliveriesLbl"
+        app:layout_constraintTop_toBottomOf="@id/sumToolBar"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppins"
+        android:textSize="12sp"
+        android:text="Deliveries Completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvDeliveriesCompleted"
+        app:layout_constraintTop_toBottomOf="@id/tvDeliveriesLbl"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="14sp"
+        tools:text="474658"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/sumToolBar"
+        layout="@layout/toolbar_main"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvTotalPriceLbl"
+        app:layout_constraintTop_toBottomOf="@id/tvDeliveriesCompleted"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="16dp"
+        android:textSize="12sp"
+        android:text="Total Cash Collected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvTotalPrice"
+        app:layout_constraintTop_toBottomOf="@id/tvTotalPriceLbl"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="14sp"
+        tools:text="Jacob Hilfiger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
